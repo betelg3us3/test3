@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Turks - Shawarma in the Philippines</title>
+        <link rel="stylesheet" href="stylesTurks.css">
+        <script src="https://kit.fontawesome.com/b2807504a5.js" crossorigin="anonymous"></script>
+
+
+        <style>
+
+
+            body {
+                font-family: Arial, sans-serif;
+            }
+            
+            .header {
+                text-align: center;
+                color: #f0f0f9;
+                font-size: 4em;
+                margin: 8%;
+                padding: 1%;
+              
+            }
+
+            .header h1 {
+                background-image: url("https://www.rappler.com/tachyon/r3-assets/612F469A6EA84F6BAE882D2B94A4B421/img/05E51C055EDF4F318EF55C035B8F7052/86738690_2517059685208867_1460953552598859776_o-1.jpg");
+                color: rgb(255, 255, 255);
+                box-shadow: 10px 25px rgb(179, 15, 15);
+            }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:left;
+                padding: 20px;
+            }
+
+            .row {
+            display: flex;
+            }
+
+            .col-sm-4 {
+            flex: 33.33%;
+            padding: 5px;
+            }
+
+            h2 {
+                color: white;
+                text-align: center;
+                margin: 1px;
+                font-size: 40px;
+                text-decoration: underline;
+            }
+
+            img#product{
+                width: 90%;
+                margin-bottom: 36%;
+                border: 8px solid white;
+                margin: 5%;
+            }
+            
+            img#product:hover {
+                transition: transform 0.3s ease;
+                transform: translateY(-10px);
+            }
+
+            .header2 {
+                text-align: center;
+                color: #f0f0f9;
+                font-size: 4em;
+                margin: 8%;
+                padding: 1%;
+              
+            }
+
+            .header2 h1#rice {
+                background-image: url("https://images.deliveryhero.io/image/fd-ph/LH/s5xf-listing.jpg");
+                color: rgb(255, 255, 255);
+                box-shadow: 10px 25px rgb(179, 15, 15);
+                background-size: cover;
+            }
+            
+            img#product2 {
+                width: 50%;
+                margin-bottom: 36%;
+                border: 8px solid white;
+                margin: 5%;
+                margin-left: 25%;
+            }
+
+            img#product2:hover {
+                transition: transform 0.3s ease;
+                transform: translateY(-10px);
+            }
+
+            .col-sm-4 h3 {
+                color: white;
+                font-size: 23px;
+                text-align: center;
+            }
+
+            button#redirection {
+                width: 15%;
+                padding: 2%;
+                margin-top: 1%;
+                margin-bottom: 5%;
+                margin-left: 43%;
+                font-size: 20px;
+                background-color:rgb(221, 71, 71);
+                font-weight: bold;
+            }
+
+            @media (max-width: 768px) {
+            header {
+                padding: 15px;
+            }
+
+            .logo img {
+                height: 40px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: flex-end;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.8);
+                padding: 10px;
+                display: none;
+                transform: translateY(-20px);
+            }
+
+            nav ul.open {
+                display: flex;
+                transform: translateY(0);
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .order-btn {
+                margin-top: 10px;
+                margin-right: 0;
+            }
+            
+
+            .header {
+                text-align: center;
+                color: #f0f0f9;
+                font-size: 2em;
+                margin: 8%;
+                padding: 1%;
+            }
+
+            button#redirection {
+                width: 25%;
+                margin-left: 39%;
+            }
+
+        }
+
+        @media screen and (max-width: 500px) {
+
+            h2 {
+                color: white;
+                text-align: center;
+                margin: 1px;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+
+            img#product {
+                width: 105%;
+                margin-bottom: 0 auto;
+            }
+
+            .header h1 {
+                font-size: 2.9rem;
+                box-shadow: 5px 10px rgb(179, 15, 15);
+                margin-left: -5%;
+                width: 115%;
+            }
+
+            img#product2{
+                width: 75%;
+                margin-left: 16%;
+            
+            }
+
+            .header2 h1 {
+                font-size: 2.9rem;
+                box-shadow: 0px 5px rgb(179, 15, 15);
+                margin-left: -5%;
+                width: 115%;
+            }
+
+            .row img {
+                width: 100%;
+            }
+
+            .row {
+                flex-direction: column;
+                align-items: center;
+                margin-left: 0%;
+                margin-right: 15%;  
+            }
+
+            .col-sm-4 {
+                margin-bottom: 20px;
+                width: 109%;
+                text-align: center;
+            }
+            
+            .col-sm-4 img {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .col-sm-4 h2 {
+                margin-left: 15%;
+            }
+
+            .col-sm-4 h3 {
+                margin-left: 10%;
+            }
+
+            button#redirection {
+                width: 35%;
+                margin-left: 30%;
+            }
+        }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="https://www.revamp.turks.ph/wp-content/uploads/2019/10/turks-logo_horizontal.png" alt="Turks Logo">
+            </div>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="products.html">Product Service</a></li>
+                    <li><a href="contacts.html">Need Help?</a></li>
+                </ul>
+            </nav>
+            <a href="#order" class="order-btn">Menu</a>
+        </header>
+           
+        <div class = "header">
+            <h1>SHAWARMA</h1>
+        </div>
+
+        <div class ="row">
+            <div class="col-sm-4">
+            <h2>Beef Pita</h2>
+            <img id="product" src = "https://turks.ph/wp-content/uploads/2017/05/pita-chicken-1.jpg">
+        </div>
+        <div class="col-sm-4">
+            <h2>Chicken Pita</h2>
+            <img id="product" src = "https://turks.ph/wp-content/uploads/2017/05/pita-chicken-1.jpg">
+        </div>
+
+    </div>
+
+    <div class = "row">
+        <div class="col-sm-4">
+            <h2>Kebab Wrap</h2>
+            <img id="product" src = "https://turks.ph/wp-content/uploads/2017/05/pita-kebab-1.jpg">
+        </div>
+
+        <div class="col-sm-4">
+            <h2>Hotdog Wrap</h2>
+            <img id="product" src = "https://turks.ph/wp-content/uploads/2017/05/hotdog-wrap-1.jpg">
+        </div>
+    </div>
+
+        <div class = "header2">
+            <h1 id = "rice">RICE MEALS</h1>
+        </div>
+
+        <div class ="row">
+            <div class="col-sm-4">
+            <h2>Beef and Chicken rice meals</h2>
+            <img id="product2" src = "rice.jpg">
+            <h3>A yellow rice and a chicken or beef, <br>with a side of tomatoes, <br>onions, and cucumber</h3>
+        </div>
+        <div class="col-sm-4">
+            <h2>Doner Steak rice meals</h2>
+            <img id="product2" src = "https://turks.ph/wp-content/uploads/2017/05/steaks.jpg">
+            <h3>A yellow rice and beef or chicken steak doner, <br>with a side of tomatoes, <br>onions, and cucumber</h3>
+        </div>
+
+    </div>
+    <h2>Order at Food Panda and Grabfood!</h2>
+
+    <button id = "redirection" onclick = "myFunction2()">MORE PRODUCTS</button>
+      
+    </body>
+    <footer>
+        <div id="footer">
+            <div><h4>Quick Access</h4><br>
+                <a id = "access" href = "index.html">Home</a><br>
+                <a id = "access" href = "about-us.html">About Us</a><br>
+                <a id = "access" href = "products.html">Products</a><br>
+                <a id = "access" href = "contacts.html">Contacts</a><br>
+            </div>
+        
+            <div><h4>Socials</h4><br>
+                <a id="link" href="https://www.facebook.com/official.turks"><i class="fa-brands fa-facebook">Facebook</i></a><br>
+                <a id="link" href="https://www.instagram.com/turks.official/?hl=en"><i class="fa-brands fa-instagram">Instagram</i></a><br>   
+            </div>
+          </div>
+          <h4 id = "feet">©Turks 2024. For educational purposes.</h4>
+
+    </footer>
+
+
+
+    <script>
+         document.querySelector('.order-btn').addEventListener('click', function () {
+                navMenu.classList.toggle('open');
+            });
+    </script>
+    <script src = "script.js"></script>
+</html>

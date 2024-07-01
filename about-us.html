@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Turks Shawarma</title>
+    <meta name="description" content="Learn about Turks Shawarma, a leading food company in the Philippines, known for its quality Pita Wraps and commitment to customer satisfaction.">
+    <link rel = "stylesheet" href = "stylesTurks.css">
+    <script src="https://kit.fontawesome.com/b2807504a5.js" crossorigin="anonymous"></script>
+    <style>
+        
+  
+        main {
+            margin-top: 100px;
+            padding: 20px;
+            color: #ffffff;
+            font-size: larger;
+            line-height: 1.6;
+          
+        }
+    
+        /* HEAD SECTION */
+
+        .image {
+            margin-left: 32%;
+            height: 20%;
+            margin-top:5%;
+        }
+
+        .image img {
+            border: solid 5px hwb(0 27% 0%);
+        }
+      
+        .container h1#gradient{
+            background-size: cover;
+            font-size: 85px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            width: 65%;
+            margin-left:17%;
+            color: white;
+            
+        
+        }
+
+        .container h1#values{
+            color: #ffffff;
+            text-align: center;
+            font-size: 55px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .paragraph {
+            margin-bottom: 7%;
+            margin-top: 3%;
+            line-height: 2.5;
+            background-color: #d31b1b;
+            padding: 1%;
+            padding-left: 3%;
+            font-size: 20px;
+            box-shadow: 10px 25px rgb(111, 5, 5);
+
+        }
+
+        .ul {
+            background-color: rgb(152, 16, 16);
+            color:#ebdfe2;
+            padding-left: 3%;
+            line-height: 2.5;
+            width: 75%;
+            margin-left: 13%;
+        }
+        .paragraph#list {
+            padding-left: 4%;
+            padding: 45px;
+            line-height: 3.0;
+
+        }
+        
+       
+
+        /* RESPONSIVE DESIGN FOR MOBILE VIEWING */
+
+        @media (max-width: 1024px) {
+            
+            .ul {
+                margin-left: -3%;
+                padding: 19px;
+                width: 104%;
+
+            }
+            
+        }
+
+
+        @media (max-width: 765px) {
+            header {
+                padding: 15px;
+            }
+
+            .logo img {
+                height: 40px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: flex-end;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.8);
+                padding: 10px;
+                display: none;
+                transform: translateY(-20px);
+            }
+
+            nav ul.open {
+                display: flex;
+                transform: translateY(0);
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .order-btn {
+                margin-top: 10px;
+                margin-right: 0;
+            }
+        }
+       
+        @media (max-width: 500px) {
+            footer {
+            padding-right: 100px;
+            flex-direction: column;
+            margin-right: -49%;
+            }
+
+            .paragraph{
+                padding: 1%;
+                height: 1%;
+                font-size: 13px;
+                margin-right: -50%;
+            }
+
+            .ul {
+                font-size: 12px;
+                width: 105%;
+                margin-right: -50%;
+            }
+
+            .image {
+                width: 120%;
+                margin-left: 40.99%;
+            }
+
+            .container h1#gradient {
+                font-size: 43px;
+                margin-left: 39%;
+            }
+
+            .container h1#values {
+                font-size: 40px;
+                margin-right: -50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.revamp.turks.ph/wp-content/uploads/2019/10/turks-logo_horizontal.png" alt="Turks Logo">
+        </div>
+        <nav>
+            <ul class = "nav" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="products.html">Product Service</a></li>
+                <li><a href="contacts.html">Need Help?</a></li>
+            </ul>
+        </nav>
+        <a href="#order" class="order-btn">Menu</a>
+    </header>
+    <main>
+            <div class = "container">
+            <h1 id = "gradient">ABOUT TURKS</h1>
+            </div>
+
+            <div class = "image">
+                <img src = "https://media.philstar.com/photos/2022/09/13/tuks_2022-09-13_10-01-11.jpg" style = " width: 50%;">
+            </div>
+
+            <div class = "paragraph">
+            <p>TURKS is a food company owned and operated by ZENAROSA FOOD CORPORATION, headed by MR. GEM L. ZEÑAROSA as President and CEO. TURKS started in 2007 as a food cart in SM City Sta. Mesa Food court in Quezon City. It is engaged in selling mainly BEEF PITA WRAP, freshly cooked and prepared upon order. Since then, Turks has grown into more than six hundred (600) branches nationwide as of April 2022.</p><br>
+            <p>Currently, Turks is ranked as the top brand among players in the same industry, recording an overwhelming amount of annual sales. TURKS is a total game changer in the industry, setting high standards in the way Pita Wraps are being prepared and served. In addition to this, TURKS takes pride in its elegant and modern-looking stores, separating itself from other brands in the industry.</p>
+            </div>
+
+            <div class = "container" id = "val">
+            <h1 id = "values">Our Values</h1>
+            </div>
+
+            <div class = "paragraph" id ="list">
+                <div class = "ul">
+            <ul>
+                <li><strong>Quality:</strong> We use only the freshest and highest quality ingredients in all our products.</li>
+                <li><strong>Customer Satisfaction:</strong> Our customers are at the heart of everything we do. We strive to exceed their expectations with every visit.</li>
+                <li><strong>Innovation:</strong> We are constantly exploring new ways to improve our menu and service.</li>
+                <li><strong>Community:</strong> We believe in giving back to the community and supporting local initiatives.</li>
+            </ul>
+        </div>
+            </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div><h4>Quick Access</h4><br>
+                <a id = "access" href = "index.html">Home</a><br>
+                <a id = "access" href = "about-us.html">About Us</a><br>
+                <a id = "access" href = "products.html">Products</a><br>
+                <a id = "access" href = "contacts.html">Contacts</a><br>
+            </div>
+        
+            <div><h4>Socials</h4><br>
+                <a id="link" href="https://www.facebook.com/official.turks"><i class="fa-brands fa-facebook">Facebook</i></a><br>
+                <a id="link" href="https://www.instagram.com/turks.official/?hl=en"><i class="fa-brands fa-instagram">Instagram</i></a><br>   
+            </div>
+          </div>
+          <h4 id = "feet">©Turks 2024. For educational purposes.</h4>
+
+    </footer>
+
+    <script>
+      document.querySelector('.order-btn').addEventListener('click', function () {
+                navMenu.classList.toggle('open');
+            });
+    </script>
+    
+
+</body>
+</html>
